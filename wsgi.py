@@ -12,9 +12,4 @@ from Library_Management_System.views import main
 application.register_blueprint(main)
 db.create_all()
 if __name__ == "__main__":
-    HOST = os.environ.get("SERVER_HOST", "localhost")
-    try:
-        PORT = int(os.environ.get("SERVER_PORT", "5555"))
-    except ValueError:
-        PORT = 5555
     application.run(HOST, PORT, threaded=True)
