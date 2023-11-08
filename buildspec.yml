@@ -1,0 +1,22 @@
+version: 0.2
+
+phases:
+  install:
+    #runtime-versions:
+    #  nodejs: 14  # Specify the Node.js version you need
+    echo "install"
+  pre_build:
+    commands:
+    #  - npm install  # Install project dependencies
+      - echo "install"
+  build:
+    commands:
+    #  - npm run build  # Replace with your build command
+      - echo "build"
+  post_build:
+    commands:
+    #  - aws s3 cp dist/ s3://your-bucket-name/ --recursive  # Example: Deploy build artifacts to an S3 bucket
+      - echo "post_build"
+#artifacts:
+  #files: '**/*'
+  #base-directory: dist  # Replace with the directory containing your build artifacts
