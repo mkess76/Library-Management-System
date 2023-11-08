@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic UI Sample App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" />
+    <style>
+        .ui.inverted.footer .link.list a {
+            color: DodgerBlue; /* Or another color appropriate for your design */
+        }
+         .ui.card {
+    background-color: lightgray !important;
+  }
+
+    </style>
+</head>
+<body>
+
+<!-- Top menu -->
+<div class="ui menu">
+    <div class="header item">MyApp</div>
+    <a class="active item">Home</a>
+    <a class="item">About</a>
+    <a class="item">Contact</a>
+</div>
+
+<!-- Hero section -->
+<div class="ui masthead vertical segment">
+    <div class="ui text container">
+        <h1 class="ui header">Welcome to MyApp</h1>
+        <p>This is a simple app using Semantic UI for styling. Enjoy the clean and structured layout!</p>
+    </div>
+</div>
+
+<!-- Cards Section -->
+<div class="ui three column stackable grid container">
+    <div class="column">
+        <div class="ui fluid card">
+            <div class="content">
+                <div class="header">Feature One</div>
+                <div class="description">
+                    An excellent feature that solves many problems.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="ui fluid card">
+            <div class="content">
+                <div class="header">Feature Two</div>
+                <div class="description">
+                    A feature that enhances your productivity.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="column">
+        <div class="ui fluid card">
+            <div class="content">
+                <div class="header">Feature Three</div>
+                <div class="description">
+                    A feature designed for ease of use and efficiency.
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="ui inverted vertical footer segment">
+    <div class="ui center aligned container">
+        <div class="ui stackable centered grid"> <!-- Note the 'centered' class added here -->
+            <div class="row">
+                <div class="three wide column">
+                    <h4 class="ui inverted header">Group 1</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">Link One</a>
+                        <a href="#" class="item">Link Two</a>
+                    </div>
+                </div>
+                <div class="three wide column">
+                    <h4 class="ui inverted header">Group 2</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">Link Three</a>
+                        <a href="#" class="item">Link Four</a>
+                    </div>
+                </div>
+                <div class="three wide column">
+                    <h4 class="ui inverted header">Group 3</h4>
+                    <div class="ui inverted link list">
+                        <a href="#" class="item">Link Five</a>
+                        <a href="#" class="item">Link Six</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="ui inverted section divider"></div>
+        <div class="ui horizontal inverted small divided link list">
+            <a class="item" href="#">Site Map</a>
+            <a class="item" href="#">Contact Us</a>
+            <a class="item" href="#">Terms and Conditions</a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Semantic UI JavaScript (Optional, for interactive components) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+
+</body>
+</html>
