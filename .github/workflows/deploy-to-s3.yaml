@@ -4,7 +4,7 @@ name: AWS S3 Demo
 on:
   push:
     branches:
-      - main
+      - master
     #paths:
     #  - 'files/**'
   workflow_dispatch:
