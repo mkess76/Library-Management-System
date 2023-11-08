@@ -5,8 +5,8 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'files/**'
+    #paths:
+    #  - 'files/**'
   workflow_dispatch:
     #inputs:
     #  bucket_name:
