@@ -8,10 +8,10 @@ on:
     paths:
       - 'files/**'
   workflow_dispatch:
-    inputs:
-      bucket_name:
-        description: 'S3 Bucket Name'
-        required: true
+    #inputs:
+    #  bucket_name:
+    #    description: 'S3 Bucket Name'
+    #    required: true
 
 jobs:
   upload-to-s3:
